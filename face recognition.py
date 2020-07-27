@@ -1,8 +1,8 @@
 #16JULY 2020
 #BY PRADEEP RAJ (M.P.R)
 #PYTHON FACE RECOGNITION
-#This Program is learned pthon face recognition example library
-#This Program is uploade for THE FAUCETERS Subscribers
+#This Program is learned fron python face-recognition example library
+#This is uploaded for THE FAUCETERS Subscribers
 
 
 
