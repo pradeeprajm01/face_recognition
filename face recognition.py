@@ -15,18 +15,26 @@ import numpy as np
 video_capture = cv2.VideoCapture(0)
 
 
-#load some images you want to recognise
+#load some images of you want to recognise
 
-pradeep_image = face_recognition.load_image_file("R:\\PYTHON\\ImageRecognition\\FM 1\\pradeep.jpg")
-pradeep_face_encoding = face_recognition.face_encodings(pradeep_image)[0]
+#you can add upto several images for loading , Just load that images in that given form 
+
+person_1_image = face_recognition.load_image_file("\\path of person_1 image file")
+person_1_face_encoding = face_recognition.face_encodings(person_1_image)[0]
+
+person_2_image = face_recognition.load_image_file("\\path of person_2 image file")
+person_2_face_encoding = face_recognition.face_encodings(person_2_image)[0]
 
 #create arrays of known_face_encodings & names
 known_face_encodings = [
-    pradeep_face_encoding
+    person_1_face_encoding
+    person_2_face_encoding
 ]
 
 known_face_names = [
-    "Pradeep Raj"
+    "Person 1 Name"
+    "Person 2 Name"
+    #Just gave a names for that loaded images  
 ]
 
 face_locations = []
