@@ -43,7 +43,7 @@ face_names = []
 
 
 process_this_frame = True
-
+#processing the i\p frame 
 while True :
     #for grab a frame
     ret, frame = video_capture.read() 
