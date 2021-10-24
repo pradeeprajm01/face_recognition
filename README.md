@@ -1,4 +1,4 @@
-# face_recognition
+# Face Recognition
 
 This is a Face Recognition Project of M.P.R
 
